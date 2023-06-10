@@ -1,0 +1,269 @@
+@import url(main.css);
+
+p{
+    color: #000;
+    font-size: .9em;
+    line-height: 2;
+}
+
+/**************** product ****************/
+/*  */
+#carouselExampleAutoplaying{
+    width: 110%;
+}
+button span{
+    background-color: #ffbb00;
+}
+.carousel-indicators button{
+    background-color: #ffbb00 !important;
+}
+
+/*  */
+
+
+.camera .container .cameraText{
+    text-align: center;
+    padding: 30px 0;
+}
+.camera .container .row{
+    justify-content: space-evenly;
+}
+.camera .container .row .cameraLine{
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 5px 0;
+    border-bottom: 1px solid #000;
+}
+
+.camera .container .row .cameraLine .cam{
+    transition: all 1s;
+    position: relative;
+}
+.camera .container .row .cameraLine .cam img{
+        transition: all 0s;
+
+}
+.camera .container .row .cameraLine .cam:hover img{
+    transform: scale(7);
+    position: absolute;
+    z-index: 5;
+    inset: 1;
+    bottom: 300px;
+}
+
+.camera .container .row .description{
+    margin-left: 120px;
+}
+.camera .container .row .about{
+    padding-left: 40px;
+}
+.camera .container .row .about a{
+    color: #ffbb00;
+    font-size: 1.2em;
+    letter-spacing: 3px;
+}
+.camera .container .row h3{
+    font-size: 1.5em;
+
+}
+.camera .container .row ul li{
+    list-style: inside;
+    padding: 10px 0;
+    font-size: 1em;
+    color: #406464;
+}
+.camera .container .row ul .price{
+    color: #ffbb00;
+    font-size: 1.5em;
+}
+/**************** product ****************/
+
+/**************** cart ****************/
+.cart .container .row{
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+.cart form label {
+	margin-bottom: 5px;
+	color: #406464;
+	font-size: 1.3em;
+	font-family: BarlowMedium;
+
+}
+.cart form input[type=number] {
+	width: 100px;
+	padding: 12px;
+	border: 1px solid #ffbb00;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	resize: vertical;
+}
+.cart form input[type=submit] {
+	background-color: #ffbb00;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: all .5s;
+}
+.cart form input[type=submit]:hover {
+	background-color: #406464;
+}
+/**************** cart ****************/
+
+/**************** cameraLine2 ****************/
+.cameraLine2 .container .row{
+    justify-content: center;
+    padding: 30px 0;
+}
+/**************** cameraLine2 ****************/
+
+/**************** item-description ****************/
+.item-description .container .row{
+    align-items: flex-start;
+}
+/**************** item-description ****************/
+
+section .container .row p a{
+    background-color: #406464;
+    color: #ffbb00;
+    font-size: 1.2em;
+    padding: 15px 25px;
+}
+
+/**************** Specifications section ****************/
+.Specifications .container p a{
+    background-color: #ffbb00;
+    color: #406464;
+    border: none;
+    transition: all 1s;
+}
+.Specifications .container p a:hover{
+    background-color: #406464;
+    color: #ffbb00;
+}
+.Specifications .container .collapse .card-body{
+    border: none;
+}
+/**************** end Specifications section ****************/
+
+/**************** cam section ****************/
+.cam .container .row{
+    align-items: center;
+    flex-direction: column;
+}
+.greater .row{
+    flex-direction: row !important;
+    justify-content: center;
+}
+.greater .row .greaterText h4{
+    font-size: 1em;
+}
+.greater .row .greaterText p{
+    font-size: .9em;
+}
+.freeze .row{
+    flex-direction: row !important;
+    justify-content: center;
+}
+.moment .row{
+    flex-direction: row !important;
+    justify-content: center;
+}
+.tools .row{
+    flex-direction: row !important;
+    justify-content: center;
+}
+/**************** end cam section ****************/
+
+
+
+/* Styles for the review header */
+.review{
+    padding:20px 0;
+}
+.site-header {
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px #40646478
+}
+
+.site-header h1 {
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #406464;
+}
+
+/* Styles for the main content */
+.site-content {
+    padding: 40px 0;
+}
+
+.product-review {
+    padding: 20px;
+    box-shadow: 0 0 10px #0000001a;
+}
+
+.product-review h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.star-rating {
+    display: inline-block;
+    font-size: 1.3em;
+    color: #ffc107;
+}
+
+.star {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.rating-count {
+    font-size: 1em;
+    color: #999;
+    margin-left: 5px;
+}
+
+.review-list {
+    list-style: none;
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+.review-list li {
+    margin-bottom: 20px;
+}
+
+.review-text {
+    font-size: 1em;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+.review .container .product-review .review-list .userIcon{
+    display: flex;
+}
+.review .container .product-review .review-list .userIcon i{
+    font-size: 1.8em;
+    color: #08032f;
+    padding-right: 20px;
+}
+.review .container .product-review .review-list li .thumbs i{
+    padding-right: 20px;
+    cursor: pointer;
+}
+/*  */
+
+
+/* lastLine */
+.lastLine{
+    padding:50px 0;
+}
+/* lastLine */
